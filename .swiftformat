@@ -1,0 +1,41 @@
+# version
+--swiftversion 5.0
+
+# general
+--allman false
+--closingparen balanced
+--commas always
+--comments indent
+--conflictmarkers reject
+--elseposition same-line
+--empty void
+--exponentcase lowercase
+--exponentgrouping disabled
+--fractiongrouping disabled
+--header ignore
+--hexliteralcase uppercase
+--ifdef indent
+--importgrouping alphabetized
+--indent 4
+--indentcase false
+--linebreaks lf
+--maxwidth none
+--operatorfunc spaced
+--patternlet hoist
+--ranges spaced
+--self remove
+--selfrequired
+--semicolons never
+--stripunusedargs always
+--trailingclosures
+--trimwhitespace always
+--wraparguments preserve
+--wrapcollections preserve
+
+# file options
+--exclude HandModel
+
+# rules
+--enable isEmpty
+--disable blankLinesAtStartOfScope, unusedArguments
+
